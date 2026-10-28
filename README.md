@@ -71,7 +71,7 @@ All data here is made up for teaching.
 
 ## A known weakness (on purpose)
 
-TF-IDF is keyword search. For *"Can a customer return fresh bread…?"* it ranks the 14-day **non-perishable** rule above the correct **bakery** rule, because "bread" and "bakery" are different words. Top-3 retrieval still catches it, but this is exactly how RAG fails quietly. Fixing it with embeddings / hybrid search is the next milestone in **[branch-ops-copilot](https://github.com/Anjub004)** (coming soon).
+TF-IDF is keyword search. For *"Can a customer return fresh bread…?"* it ranks the 14-day **non-perishable** rule above the correct **bakery** rule, because "bread" and "bakery" are different words. Top-3 retrieval still catches it, but this is exactly how RAG fails quietly. Fixing it with embeddings / hybrid search is the next milestone in **[branch-ops-copilot](https://github.com/Anjub004/branch-ops-copilot)**.
 
 ## Tests
 
